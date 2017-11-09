@@ -6,13 +6,14 @@ All you need to carry your packages with you. Add keys, sources, repositories, i
 
 ## Installation
 
-```
+```sh
 git clone https://github.com/andrei-pavel/curate-pkg.git
 cd curate-pkg
 ./install
 ```
 
 ## Configuration
+
 After installing, edit `~/.config/curate-pkg/*.json`.
 
 Samples:
@@ -20,11 +21,11 @@ Samples:
 - `eopkg`: https://gist.github.com/andrei-pavel/c983ba2238f1787436b6beb2d6cebfa2
 
 ## How to use
+
 Run `curate-pkg` everyday.
 
 When installing a new package, add it to `installables`, `wgetables` or `sources` and `keys` in `~/.config/curate-pkg/*.json`.
 
 When removing a package, add it to `purgeables` in `~/.config/curate-pkg/*.json`.
 
-`commands` is for any custom package management cmomand that you want to run in addition to installing and purging packages.
-
+`commands` is for any custom package management command that you want to run in addition to installing and purging packages.
